@@ -17,13 +17,18 @@ function QuantityPicker(props) {
         props.onChange(nextVal);
     }
 
-    return (
-        <div>
-            <button onClick={handleDecrease}>-</button>
-            <label>{quantity}</label>
-            <button onClick={handleIncrease}>+</button>
-        </div>
-    );
+ return (
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <button style={{ marginRight: "12px" }} onClick={handleDecrease}>-</button>
+
+        <label style={{ fontWeight: "bold", margin: "0 6px" }}>
+            {quantity}
+        </label>
+
+        <button style={{ marginLeft: "12px" }} onClick={handleIncrease}>+</button>
+    </div>
+);
+
 }
 
 export default QuantityPicker;

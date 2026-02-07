@@ -1,8 +1,26 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(143, 85, 182);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.navbar {
+  background-color: #080808;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+
+.navbar h1,
+.navbar a {
+  color: #141414;
 }
 
 .logo {
@@ -11,9 +29,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -38,5 +58,34 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #171616;
+}
+
+.products {
+  background-color: #101010;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products h5,
+.products label {
+  color: #222;
+}
+
+.products button {
+  background-color: #8f8888;
+  color: #fff;
+  border: none;
+}
+
+.products button:hover {
+  background-color: #4f4c4c;
 }

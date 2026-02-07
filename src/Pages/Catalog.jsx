@@ -8,7 +8,6 @@ function Catalog() {
     const [categories, setCategories] = useState([]);
     const [prodsToDisplay, setProdsToDisplay] = useState([]);
 
-    // runs once when component loads
     useEffect(() => {
         console.log("component loaded!");
         loadCatalog();
@@ -21,9 +20,7 @@ function Catalog() {
         setProducts(data);
         setProdsToDisplay(data);
 
-        // keep this EXACTLY as you want it
         let cats = ["PC", "Keyboard", "Mouse"];
-
         setCategories(cats);
     }
 
@@ -51,15 +48,17 @@ function Catalog() {
                 </button>
             </div>
 
-            {categories.map(cat => (
-                <button
-                    key={cat}
-                    onClick={() => filter(cat)}
-                    className="btn btn-primary btn-filter"
-                >
-                    {cat}
-                </button>
-            ))}
+            <div className="category-buttons">
+                {categories.map(cat => (
+                    <button
+                        key={cat}
+                        onClick={() => filter(cat)}
+                        className="btn btn-primary btn-filter"
+                    >
+                        {cat}
+                    </button>
+                ))}
+            </div>
 
             <div className="product-list">
                 {prodsToDisplay.map((prod, index) => (

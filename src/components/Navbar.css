@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
-    border-bottom: 1px solid #e5e5e5;
-    background-color: white;
+   
+    background-color: rgb(231, 226, 232);
 }
 
 .navbar-container {
@@ -48,3 +48,4 @@
     font-weight: 500;
     font-size: 16px;
 }
+

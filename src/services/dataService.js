@@ -38,35 +38,35 @@ const catalog = [
         id: 3
     },
     {
-        title: "Keyboard",
+        title: "Phoenix Keyboard",
         category: "Keyboard",
         price: 60,
         image: keyboard1,
         id: 4
     },
     {
-        title: "Keyboard",
+        title: "AriZ Keyboard",
         category: "Keyboard",
         price: 65,
         image: keyboard2,
         id: 5
     },
     {
-        title: "Keyboard",
+        title: "HJL Keyboard",
         category: "Keyboard",
         price: 70,
         image: keyboard3,
         id: 6
     },
     {
-        title: "Mouse",
+        title: "Titan Mouse",
         category: "Mouse",
         price: 70,
         image: mouse1,
         id: 7
     },
     {
-        title: "Mouse",
+        title: "GLD Mouse",
         category: "Mouse",
         price: 90,
         image: mouse2,
