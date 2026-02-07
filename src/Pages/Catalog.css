@@ -1,0 +1,20 @@
+.catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.catalog h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #777;
+    margin: 40px 0;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}

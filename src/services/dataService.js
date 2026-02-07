@@ -1,32 +1,81 @@
+import pc1 from "../Images/gamerpc1.png";
+import pc2 from "../Images/pc2.jpg";
+import pc3 from "../Images/pc3.jpg";
+
+import keyboard1 from "../Images/keyboard1.png";
+import keyboard2 from "../Images/keyboard2.png";
+import keyboard3 from "../Images/keyboard3.png";
+
+import mouse1 from "../Images/mouse1.png";
+import mouse2 from "../Images/mouse2.png";
+
+
+
+
+
+
+
 const catalog = [
     {
-        title: "GamerPC",
-        category: "Laptop",
-        price: 2000,
-        image: "placeholder",
+        title: "Titan X Gaming PC",
+        category: "PC",
+        price: 1800,
+        image: pc1,
         id: 1
     },
     {
-        title: "Ergonomic Mouse",
-        category: "Devices",
-        price: 50,
-        image: "placeholder",
+        title: "Phantom Pro Gaming PC",
+        category: "PC",
+        price: 2100,
+        image: pc2,
         id: 2
     },
     {
-        title: "Ergonomic Keyboard",
-        category: "Devices",
-        price: 60,
-        image: "placeholder",
+        title: "Predator Xtreme Gaming PC",
+        category: "PC",
+        price: 2700,
+        image: pc3,
         id: 3
     },
     {
-        title: "Normal Keyboard",
-        category: "Devices",
-        price: 40,
-        image: "placeholder",
-        id: 4 // must be unique
-    }
+        title: "Keyboard",
+        category: "Keyboard",
+        price: 60,
+        image: keyboard1,
+        id: 4
+    },
+    {
+        title: "Keyboard",
+        category: "Keyboard",
+        price: 65,
+        image: keyboard2,
+        id: 5
+    },
+    {
+        title: "Keyboard",
+        category: "Keyboard",
+        price: 70,
+        image: keyboard3,
+        id: 6
+    },
+    {
+        title: "Mouse",
+        category: "Mouse",
+        price: 70,
+        image: mouse1,
+        id: 7
+    },
+    {
+        title: "Mouse",
+        category: "Mouse",
+        price: 90,
+        image: mouse2,
+        id: 8
+    },
+ 
+
+
+
 ];
 
 class DataService {
